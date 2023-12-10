@@ -90,6 +90,11 @@ class App extends Component {
                 >
                  Clear
                </button>
+               <h3 
+                data-testid="answer"
+                >
+                 {relationshipStatus}
+               </h3>
             </div>
         )
     }
